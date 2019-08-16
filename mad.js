@@ -1,7 +1,14 @@
 		function randomMad() {
 	//var mad = ['Cheese Burger', 'Mac N\'cheese', 'Frikadeller', 'Nachos', ];
 	//var desert = ['Regnbue is', 'Chokolademouse', 'Romkugler'];
-	var desert = ['Regnbueis.jpg', 'Romkugler.jpg'];
+	
+	//Dessert ting
+	var desert = [
+	'Regnbueis.jpg', 
+	'Romkugler.jpg'];
+	
+	
+	//Mad Ting
 	var mad = [
 	'Frikadeller.jpg', 
 	'Mac_N_Cheese.jpg', 
@@ -13,7 +20,8 @@
 	var desertIndex = Math.floor(desert.length * Math.random());
 	var linkDesertOpskrifter = [
 	'https://www.alt.dk/mad/opskrift/regnbueis', 
-	'http://www.mums-opskrifter.dk/romkugler/'
+	'http://www.mums-opskrifter.dk/romkugler/',
+	''
 	
 	];
 	var linkMadOpskrifter = [
