@@ -2,7 +2,7 @@
 	//var mad = ['Cheese Burger', 'Mac N\'cheese', 'Frikadeller', 'Nachos', ];
 	//var desert = ['Regnbue is', 'Chokolademouse', 'Romkugler'];
 	var desert = ['Regnbueis.jpg', 'Romkugler.jpg'];
-	var mad = ['Frikadeller.jpg', 'Mac n\' Cheese.jpg', 'Cheeseburger.jpg'];
+	var mad = ['Frikadeller.jpg', 'MacNcHeese.jpg', 'Cheeseburger.jpg'];
 	var madIndex = Math.floor(mad.length * Math.random());
 	var desertIndex = Math.floor(desert.length * Math.random());
 	var linkDesertOpskrifter = [
@@ -24,3 +24,5 @@
 	document.getElementById("deLinks").href = linkDesertOpskrifter[desertIndex];
 	
 }
+
+
