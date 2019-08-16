@@ -24,18 +24,3 @@
 	document.getElementById("deLinks").href = linkDesertOpskrifter[desertIndex];
 	
 }
-
-function randomOpskrifter() {
-	var opskriftLinks = [
-	'https://www.alt.dk/mad/opskrift/klassiske-frikadeller', 
-	'https://vielskermad.dk/opskrift/macaroni-cheese/', 
-	'https://www.dr.dk/mad/opskrift/cheeseburger-nem-og-hurtig-udgave',
-	'https://www.alt.dk/mad/opskrift/regnbueis', 
-	'http://www.mums-opskrifter.dk/romkugler/'
-	];
-	
-	
-	//var linksIndex = Math.floor(linksIndex.length * Math.random());
-	
-	//document.getElementById("lykkebtn").href = opskriftLinks;
-}
