@@ -6,7 +6,7 @@
 	'Frikadeller.jpg', 
 	'Mac_N_Cheese.jpg', 
 	'Cheeseburger.jpg', 
-	'Nachos.png'
+	'Nachos.png',
 	'Flaeskesteg.jpg'
 	];
 	var madIndex = Math.floor(mad.length * Math.random());
