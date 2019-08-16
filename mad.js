@@ -19,7 +19,9 @@
 	var linkMadOpskrifter = [
 	'https://www.alt.dk/mad/opskrift/klassiske-frikadeller', 
 	'https://vielskermad.dk/opskrift/macaroni-cheese/', 
-	'https://www.dr.dk/mad/opskrift/cheeseburger-nem-og-hurtig-udgave' 
+	'https://www.dr.dk/mad/opskrift/cheeseburger-nem-og-hurtig-udgave',
+	'https://www.hurtigmums.dk/nachos/',
+	'https://www.arla.dk/opskrifter/artikler/julens-24-sporgsmal-om-mad/flaskesteg-med-sprod-svar/'
 	];
 	//document.getElementById("madTxt").innerHTML = 'Mad: ' + mad[Math.floor(mad.length * Math.random())] + '<br>Desert: ' + desert[Math.floor(desert.length * Math.random())];
 	document.getElementById('madBillede').src = mad[madIndex];
@@ -30,4 +32,5 @@
 	document.getElementById("deLinks").href = linkDesertOpskrifter[desertIndex];
 	
 }
+
 
